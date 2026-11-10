@@ -1,0 +1,93 @@
+.form-container {
+  min-height: 100vh;
+  background: #f1f5f9;
+  padding: 40px 20px;
+}
+
+.form-card {
+  background: white;
+  max-width: 600px;
+  margin: auto;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.form-card h1 {
+  color: #1e293b;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.form-card > p {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  height: 44px;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #2563eb;
+}
+
+.form-group small {
+  color: #dc2626;
+  font-size: 12px;
+  display: block;
+  margin-top: 6px;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.save-button,
+.cancel-button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.save-button {
+  background: #2563eb;
+  color: white;
+}
+
+.cancel-button {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 13px;
+}
